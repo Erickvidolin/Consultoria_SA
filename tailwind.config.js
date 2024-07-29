@@ -5,10 +5,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "01": "url('/src/img/capa site.jpg')",
-        "02": "url('/src/img/consultlupa.jpg')",
-        "03": "url('/src/img/consult2.jpg')",
-        "04": "url('/src/img/karolina-gra.jpg')",
+        "01": "url('./img/capa site.jpg')",
+        "02": "url('./img/consultlupa.jpg')",
+        "03": "url('./img/consult2.jpg')",
+        "04": "url('./img/karolina-gra.jpg')",
       },
 
       colors: {
