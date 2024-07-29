@@ -5,17 +5,10 @@
 @layer components {
 
 
-.img{
-    height:500px ;
+.img-principal{
+    height: 450px;
 }
 
-.img_sm{
-    height:400px ;
-}
-
-.img_xl{
-    height:900px ;
-}
 
 .card{
     @apply ease-in duration-300 hover:shadow-xl hover:shadow-black 

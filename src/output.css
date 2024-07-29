@@ -554,16 +554,8 @@ video {
   --tw-contain-style:  ;
 }
 
-.img{
-  height:500px ;
-}
-
-.img_sm{
-  height:400px ;
-}
-
-.img_xl{
-  height:900px ;
+.img-principal{
+  height: 450px;
 }
 
 .card {
@@ -688,6 +680,14 @@ video {
 
 .h-24 {
   height: 6rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-full {
@@ -860,8 +860,8 @@ video {
   background-color: rgb(184 207 241 / var(--tw-bg-opacity));
 }
 
-.bg-04 {
-  background-image: url('/src/img/karolina-gra.jpg');
+.bg-01 {
+  background-image: url('./img/karolina-gra.jpg');
 }
 
 .bg-gradient-to-t {
@@ -888,12 +888,12 @@ video {
   --tw-gradient-to: #db254f var(--tw-gradient-to-position);
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-center {
@@ -1043,18 +1043,6 @@ video {
 
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-}
-
-@media (min-width: 768px) {
-  .md\:img{
-    height:500px ;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:img_xl{
-    height:900px ;
-  }
 }
 
 .hover\:bg-gradient-to-l:hover {
