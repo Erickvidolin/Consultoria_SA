@@ -6,10 +6,10 @@ module.exports = {
     extend: {
 
       backgroundImage: {
-        "01": "url('./src/img/capa site.jpg')",
-        "02": "url('./src/img/consultlupa.jpg')",
-        "03": "url('./src/img/consult2.jpg')",
-        "04": "url('./src/img/consult3.jpg')",
+        "01": "url('/src/img/capa site.jpg')",
+        "02": "url('/src/img/consultlupa.jpg')",
+        "03": "url('/src/img/consult2.jpg')",
+        "04": "url('/src/img/consult3.jpg')",
       },
 
       colors: {
