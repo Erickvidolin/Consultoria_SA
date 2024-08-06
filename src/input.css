@@ -12,7 +12,7 @@
 
 .card{
     @apply ease-in duration-300 hover:shadow-xl hover:shadow-black 
-    bg-gradient-to-t from-[#1a9687] to-[#45c9b9] m-auto pt-5 pb-5 w-72 
+    bg-gradient-to-t from-[#3D518C] to-[#45c9b9] m-auto pt-5 pb-5 w-72 
     rounded-2xl flex flex-col text-center mb-5 mt-5
 }
 
