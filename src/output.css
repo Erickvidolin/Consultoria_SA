@@ -734,6 +734,10 @@ video {
   height: 8rem;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .h-60 {
   height: 15rem;
 }
@@ -752,10 +756,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-36 {
-  height: 9rem;
 }
 
 .w-1 {
@@ -1258,12 +1258,12 @@ video {
     grid-column: span 2 / span 2;
   }
 
-  .md\:h-24 {
-    height: 6rem;
-  }
-
   .md\:h-14 {
     height: 3.5rem;
+  }
+
+  .md\:h-24 {
+    height: 6rem;
   }
 
   .md\:w-11\/12 {
@@ -1313,12 +1313,12 @@ video {
     display: flex;
   }
 
-  .lg\:h-full {
-    height: 100%;
-  }
-
   .lg\:h-16 {
     height: 4rem;
+  }
+
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:w-16 {
