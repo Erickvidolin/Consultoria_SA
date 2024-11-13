@@ -670,12 +670,12 @@ video {
   margin-top: 1.25rem;
 }
 
-.-mt-5 {
-  margin-top: -1.25rem;
-}
-
 .mt-auto {
   margin-top: auto;
+}
+
+.-mt-5 {
+  margin-top: -1.25rem;
 }
 
 .block {
@@ -770,14 +770,6 @@ video {
   height: 100%;
 }
 
-.h-5\/6 {
-  height: 83.333333%;
-}
-
-.h-3\/6 {
-  height: 50%;
-}
-
 .w-1 {
   width: 0.25rem;
 }
@@ -864,10 +856,6 @@ video {
 
 .w-8\/12 {
   width: 66.666667%;
-}
-
-.w-6\/12 {
-  width: 50%;
 }
 
 .border-collapse {
@@ -1009,10 +997,6 @@ video {
   background-color: rgb(184 207 241 / var(--tw-bg-opacity));
 }
 
-.bg-black\/20 {
-  background-color: rgb(0 0 0 / 0.2);
-}
-
 .bg-black\/10 {
   background-color: rgb(0 0 0 / 0.1);
 }
@@ -1093,6 +1077,10 @@ video {
   padding: 0px;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -1111,10 +1099,6 @@ video {
 
 .p-7 {
   padding: 1.75rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .px-5 {
@@ -1195,6 +1179,10 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-24 {
+  padding-top: 6rem;
+}
+
 .pt-28 {
   padding-top: 7rem;
 }
@@ -1205,10 +1193,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
 }
 
 .text-center {
@@ -1244,6 +1228,16 @@ video {
   line-height: 1;
 }
 
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1252,16 +1246,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -1494,21 +1478,9 @@ video {
   .xl\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-
-  .xl\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
 }
 
 @media (min-width: 1536px) {
-  @media (min-width: 1280px) {
-    .\32xl\:xl\:text-6xl {
-      font-size: 3.75rem;
-      line-height: 1;
-    }
-  }
-
   .\32xl\:col-span-3 {
     grid-column: span 3 / span 3;
   }
@@ -1524,16 +1496,6 @@ video {
 
   .\32xl\:pt-32 {
     padding-top: 8rem;
-  }
-
-  .\32xl\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
   }
 
   .\32xl\:text-7xl {
